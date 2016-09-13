@@ -1,0 +1,20 @@
+{
+  "name": "fmurriel",
+  "version": "1.0.0",
+  "description": "HW 18 all_the_news_thats_fit_to_scrape",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Murriel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.0",
+    "morgan": "^1.7.0",
+    "request": "^2.74.0"
+  }
+}

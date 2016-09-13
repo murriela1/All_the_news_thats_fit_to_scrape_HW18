@@ -1,0 +1,26 @@
+<body>
+<div class='container' id='noteContainer'>
+<h2> {{title}}</h2>
+<h3>{{author}}</h3>
+<br>
+<div id='note'>
+	{{#each note}}
+	<p><strong>Note: </strong>{{content}}</p>
+	<p><strong>By: </strong>{{author}}</p>
+	<hr>
+	{{/each}}
+</div>
+<form name='noteForm' action='/article/{{id}}' method="POST">
+<div class="form-group">
+  <label for="author">Name:</label>
+  <input type="text" class="form-control" id="author" name="author">
+</div>
+<div class="form-group">
+  <label for="content">My thoughts:</label>
+  <input type="text" class="form-control" id="content" name="content">
+</div>
+<button type="submit" class="btn btn-primary" id='noteSubmit'>Leave your note here!</button>
+<a type="button" href='/' class="btn btn-primary" id="backButton">Go back and read more!</a>
+</form>
+</div>
+</body>

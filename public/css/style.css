@@ -1,0 +1,24 @@
+.jumbotron {
+	background-color: #41c7e9;
+}
+
+.individArticle{
+	background-color: #41c7e9;
+	padding: 20px;
+	margin: 20px;
+}
+
+#noteContainer{
+	background-color: #31f568;
+	padding: 25px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+img {
+	 display: block;
+  	text-align: center;
+  	margin: auto;
+  	width: 200px;
+  	height: 200px;
+}
